@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="5" name="Unit_Test_trigger(failed)" verbose="10">
+    <classes>
+      <class name="Cloud_Bees.Train_London_To_Practice.TrainTicketServiceTest">
+        <methods>
+          <include name="testGetSeatsBySection"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Cloud_Bees.Train_London_To_Practice.TrainTicketServiceTest -->
+    </classes>
+  </test> <!-- Unit_Test_trigger(failed) -->
+</suite> <!-- Failed suite [Suite] -->
